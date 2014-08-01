@@ -1,0 +1,25 @@
+{
+	"name": "sweetbuild",
+	"description": "A collection of Broccoli macros for Sweet.js",
+	"version": "0.1.0",
+	"author": "Greg V <floatboth@me.com>",
+	"engines": {
+		"node": "*"
+	},
+	"main": "index",
+	"keywords": [
+		"sweet-macros",
+		"broccoli"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/myfreeweb/sweetbuild.git"
+	},
+	"license": [{
+		"type": "WTFPL",
+		"url": "https://github.com/myfreeweb/sweetbuild/blob/master/COPYING"
+	}],
+	"bugs": {
+		"url": "https://github.com/myfreeweb/sweetbuild/issues"
+	}
+}
