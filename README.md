@@ -1,4 +1,4 @@
-# sweetbuild [![npm version](https://img.shields.io/npm/v/sweetbuild.svg?style=flat)](https://www.npmjs.org/package/sweetbuild) [![npm downloads](https://img.shields.io/npm/dm/sweetbuild.svg?style=flat)](https://www.npmjs.org/package/sweetbuild) [![Dependency Status](https://img.shields.io/gemnasium/myfreeweb/broccoli-sweetbuild.svg?style=flat)](https://gemnasium.com/myfreeweb/broccoli-sweetbuild) [![WTFPL](https://img.shields.io/badge/license-WTFPL-brightgreen.svg?style=flat)](https://www.tldrlegal.com/l/wtfpl)
+# sweetbuild [![npm version](https://img.shields.io/npm/v/sweetbuild.svg?style=flat)](https://www.npmjs.org/package/sweetbuild) [![npm downloads](https://img.shields.io/npm/dm/sweetbuild.svg?style=flat)](https://www.npmjs.org/package/sweetbuild) [![Dependency Status](https://img.shields.io/gemnasium/myfreeweb/sweetbuild.svg?style=flat)](https://gemnasium.com/myfreeweb/sweetbuild) [![WTFPL](https://img.shields.io/badge/license-WTFPL-brightgreen.svg?style=flat)](https://www.tldrlegal.com/l/wtfpl)
 
 A [Sweet.js] DSL for [Broccoli], the best frontend asset pipeline.
 
