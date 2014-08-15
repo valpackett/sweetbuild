@@ -1,4 +1,4 @@
-macro use {
+macro brequire {
 	case {
 		$macro_name $name:ident
 	} => {
@@ -6,7 +6,7 @@ macro use {
 		return #{var $name = require($modName)};
 	}
 }
-export use;
+export brequire;
 
 operator (+++) 14 left { $l, $r } =>
 	#{ require('broccoli-merge-trees')(Array.prototype.concat.apply([], [$l, $r])) }

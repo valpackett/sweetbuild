@@ -22,13 +22,13 @@ Put your build script in `Brocfile.sjs` (or whatever you required in `Brocfile.j
 
 ### The macros
 
-#### use
+#### brequire
 
 A shorthand for `require`.
 Requires `some_thing` from `broccoli-some-thing`.
 
 ```js
-use source_map; // requires broccoli-source-map as source_map
+brequire source_map; // requires broccoli-source-map as source_map
 ```
 
 #### +++ and +!+
@@ -60,10 +60,10 @@ var scripts = uglify_js(coffee('src/main/coffee', {bare: true}));
 ### A complete example
 
 ```js
-use coffee;
-use uglify_js;
-use sass;
-use manifest;
+brequire coffee;
+brequire uglify_js;
+brequire sass;
+brequire manifest;
 
 var scripts = 'vendor/js' +++ ('cs' -> coffee)
 	-> uglify_js;

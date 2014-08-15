@@ -1,7 +1,7 @@
 {
 	"name": "sweetbuild",
 	"description": "A collection of Broccoli macros for Sweet.js",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"author": "Greg V <floatboth@me.com>",
 	"engines": {
 		"node": "*"
