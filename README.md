@@ -11,6 +11,8 @@ A [Sweet.js] DSL for [Broccoli], the best frontend asset pipeline.
 $ npm install --save-dev sweet.js sweetbuild broccoli broccoli-merge-trees
 ```
 
+### If you use [broccoli-cli](https://github.com/broccolijs/broccoli-cli)
+
 Put the following in `Brocfile.js`:
 
 ```js
@@ -19,6 +21,31 @@ module.exports = require('./Brocfile.sjs');
 ```
 
 Put your build script in `Brocfile.sjs` (or whatever you required in `Brocfile.js`) and use Broccoli like you normally do.
+
+### If you use [grunt-broccoli](https://github.com/quandl/grunt-broccoli)
+
+Configure your grunt using pretty much the same code, except use `return` because that's how grunt-broccoli works:
+
+```js
+module.exports = function(grunt) {
+	grunt.loadNpmTasks('grunt-broccoli');
+	grunt.initConfig({
+    // ...
+		broccoli: {
+			dist: {
+				dest: 'build',
+				config: function() {
+					require('sweet.js').loadMacro('sweetbuild');
+					return require('./Brocfile.sjs');
+				}
+			}
+		}
+    // ...
+	});
+}
+```
+
+Again, put your build script in `Brocfile.sjs` or whatever.
 
 ### The macros
 
