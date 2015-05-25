@@ -15,10 +15,7 @@
 		"type": "git",
 		"url": "https://github.com/myfreeweb/sweetbuild.git"
 	},
-	"license": [{
-		"type": "WTFPL",
-		"url": "https://github.com/myfreeweb/sweetbuild/blob/master/COPYING"
-	}],
+	"license": "WTFPL",
 	"bugs": {
 		"url": "https://github.com/myfreeweb/sweetbuild/issues"
 	}
